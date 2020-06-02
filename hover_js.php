@@ -58,7 +58,6 @@
 
 <script type="text/javascript">
 var arr = <?= json_encode($arr);?>;
-console.log(arr);
 $(function(){
 	$('.hoverAssay').hover(function(){
 		var eID = $(this).attr('data-eId');
@@ -84,10 +83,4 @@ $(function(){
 	}
 
 });
-var tmp = {
-0: {'title': "きみのなは", 'stars': "☆☆☆☆☆", 'assay': "とてもよい"},
-1: {'title': "てんきのこ", 'stars': "☆☆☆☆", 'assay': "よい"},
-2: {'title': "秒速５センチメートル", 'stars': "☆☆☆"}
-};
-console.log(tmp);
 </script>
